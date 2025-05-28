@@ -25,7 +25,7 @@ function App() {
       <Card img_top={placeholder} img_bottom={demoImg}>
         <h3 className="card__title">Card title</h3>
         <p className="card__text">
-          Clearly, this card has at least one image. (Images can be different)
+          Clearly, this card has at least one image.
           And a lot of text. <span style={{color:'blue'}}>Some quick example text to build on the card title and make up the bulk of the card's content.</span>
         </p>
         <button onClick={(e) => {console.log('card4 button press')}} className="card__button">Perfection</button>
